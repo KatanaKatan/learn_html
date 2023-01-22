@@ -1,6 +1,20 @@
+/*
 p{
     color: lightseagreen;
     font-size: 14px;
+}
+*/
+.text_mark{
+    font-weight: bold;
+    font-style: italic;
+    color: yellow;
+    background-color: aqua;
+}
+
+
+#green{
+    color: green;
+    font-size: 20px;
 }
 
 h1{
