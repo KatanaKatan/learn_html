@@ -1,32 +1,21 @@
-/*
+.test_style_text{
+color: orange;
+background-color: black ;
+letter-spacing: 3px;
+font-size: 10px;
+line-height: 1.8;
+word-spacing: 20px;
+/*text-shadow: 1px 1px red;*/
+text-decoration-line: underline;
+}
+
+.mark_text{
+    text-transform: uppercase;
+    color: blueviolet;
+
+    
+}
+
 p{
-    color: lightseagreen;
-    font-size: 14px;
+font-size: 14px;
 }
-*/
-.text_mark{
-    font-weight: bold;
-    font-style: italic;
-    color: yellow;
-    background-color: aqua;
-}
-
-
-#green{
-    color: green;
-    font-size: 20px;
-}
-
-h1{
-    color: red;
-}
-
-
-h2{
-    color: blue;
-}
-
-h3{
-    color: brown;
-}
-
