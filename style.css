@@ -15,38 +15,37 @@ TEXT (p,h)
     box-sizing: border-box;
 }
 
-div{
-    width: 200px;
-    height: 200px;
-    background-color: darkorange;
-    margin: 5px;
-    
-}
-
-.box2{
-    margin-left: 30px;
-    margin-top: -30px;
-    background-color: blue;
-}
-
-.box3{
-    margin-left: -30px;
+.container_1{
+    width: 300px;
+    height: 300px;
+    background-color: beige;
 
 }
 
-.box4{
-    margin-left: 150px;
-
+img{
+   object-fit: cover;
+    width: inherit;
+    height: inherit;
 }
 
-.child{
-    width: 30px;
-    height: 50px;
-    margin: 5px;
+/* width: inherit; height: inherit; - унаследовать. Высоту и ширину забери у родителя. Родитель - контейнер */
+
+/* Залить изображение,но на фоню. Его нет в разметке. С помощью background-image: url (" "); */
+
+.container_2{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    background-image: url("image-asset-panorama.jpeg");
+    background-size: 150px 150px;
     background-color: azure;
-    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
 
 }
+
+
 
 /*
 Как выставить маржин в одну линию? 
