@@ -3,6 +3,7 @@ TEXT (p,h)
 -color (const,rgba(),#001122 (6 цифр)
  (цвет задаём в ввиде)
 -background-color
+-font-style (стиль шрифта) 
 -font-size (px - pixel) (размер шрифта)
 -text-align (left, right, center, justify)
 -font-weight (normal/bold) (на сколько он жирный)
@@ -15,49 +16,35 @@ TEXT (p,h)
     box-sizing: border-box;
 }
 
-.container_1{
+/* Or 
+.img_plane {
+    display: block;
     width: 300px;
     height: 300px;
-    background-color: beige;
+    border: 2px solid blue;
+} 
+*/
 
+
+.p_1{
+    font-style: oblique;
 }
 
-img{
-   object-fit: cover;
+.img_plane{
+    width: 300px;
+    height: 300px;
+    border: 2px solid royalblue;
+}
+
+/* border: 2px solid royalblue; solid - color of border */
+
+.img_plane > img{
+    
     width: inherit;
     height: inherit;
 }
 
-/* width: inherit; height: inherit; - унаследовать. Высоту и ширину забери у родителя. Родитель - контейнер */
-
-/* Залить изображение,но на фоню. Его нет в разметке. С помощью background-image: url (" "); */
-
-.container_2{
-    margin-top: 10px;
-    width: 250px;
-    height: 250px;
-    background-image: url("image-asset-panorama.jpeg");
-    background-size: 150px 150px;
-    background-color: azure;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: contain;
-
-}
-
-
-
-/*
-Как выставить маржин в одну линию? 
-margin: 25px 50px 75px 100px
-top-margin is 25px (верх)
-right-margin is 50px; (право)
-bottom-margin is 75px; (низ)
-left-margin is 100px; (лево)
-Маржин - это набивка, проблема набивки в том, что её нужно пересчитывать.
-В помощь box-sizing: border-box.
-*/
-
+/* inherit - унаследовать */
 
 
 /* *{
