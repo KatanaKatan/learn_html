@@ -11,29 +11,53 @@ TEXT (p,h)
 -text-decoration-line: (underline)
 -line-height: (1.8)
 */ 
-.div1{
-    margin: 10px;
-    padding: 10px;
-    background-color: chartreuse;
+*{
+    box-sizing: border-box;
 }
 
 div{
-    color: black; 
-    font-weight: 600;
-    background-color: beige;
-    border: 3px solid burlywood;
     width: 200px;
-    /*height: 50px;*/
+    height: 200px;
+    background-color: darkorange;
+    margin: 5px;
+    
+}
+
+.box2{
+    margin-left: 30px;
+    margin-top: -30px;
+    background-color: blue;
+}
+
+.box3{
+    margin-left: -30px;
 
 }
 
-span{
-    color: rgb(19, 29, 146);
-    font-weight: 600;
-    background-color: gainsboro;
-    border: 3px solid gray;
+.box4{
+    margin-left: 150px;
 
 }
+
+.child{
+    width: 30px;
+    height: 50px;
+    margin: 5px;
+    background-color: azure;
+    display: inline-block;
+
+}
+
+/*
+Как выставить маржин в одну линию? 
+margin: 25px 50px 75px 100px
+top-margin is 25px (верх)
+right-margin is 50px; (право)
+bottom-margin is 75px; (низ)
+left-margin is 100px; (лево)
+Маржин - это набивка, проблема набивки в том, что её нужно пересчитывать.
+В помощь box-sizing: border-box.
+*/
 
 
 
